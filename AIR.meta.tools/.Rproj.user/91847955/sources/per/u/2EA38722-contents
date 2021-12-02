@@ -1,0 +1,13 @@
+require(devtools)
+install.packages("devtools")
+
+
+library(AIR.meta.tools)
+
+
+?drop_one()
+
+
+list = c(1,2,3,4,5,6)
+
+format_keywords(list)
